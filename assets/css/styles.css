@@ -152,7 +152,6 @@ button {
   position: fixed;
   top: 0;
   left: 0;
-  outline: 1px solid;
   z-index: var(--z-fixed);
 }
 
@@ -198,7 +197,6 @@ button {
 
 .home__player {
   width: 100%;
-  outline: 1px solid;
   position: relative;
 }
 
@@ -222,6 +220,16 @@ button {
 /* Swiper Class */
 
 /*=============== BUTTONS ===============*/
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+}
 
 /*=============== CATEGORY ===============*/
 
