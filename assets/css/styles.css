@@ -10,7 +10,8 @@
   --first-color: hsl(var(--hue), 91%, 54%);
   --first-color-alt: hsl(var(--hue), 91%, 50%);
   --title-color: hsl(var(--hue), 4%, 100%);
-  --text-color: hsl(var(--hue), 4%, 85%);
+  --text-color: hsl(var(--hue), 1%, 85%);
+  --text-color-dark: hsl(22, 5%, 55%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
   --body-color: linear-gradient(
     90deg,
@@ -172,6 +173,16 @@ button {
 
 .nav__logo-img {
   width: 1.25rem;
+}
+
+.nav__link {
+  color: #ffffff;
+}
+
+.nav__logo,
+.nav__toggle,
+.nav__close {
+  color: var(--text-color);
 }
 
 /* Show menu */
