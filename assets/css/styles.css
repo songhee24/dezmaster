@@ -196,6 +196,22 @@ button {
 
 /*=============== HOME ===============*/
 
+.home__player {
+  width: 100%;
+  height: 445px;
+  outline: 1px solid;
+  position: relative;
+}
+
+.home__video_overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 /* Swiper Class */
 
 /*=============== BUTTONS ===============*/
