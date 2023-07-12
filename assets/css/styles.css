@@ -225,13 +225,19 @@ button {
 /*=============== BUTTONS ===============*/
 
 .button {
-  display: inline-block;
+  display: flex;
   background-color: var(--first-color);
   color: var(--title-color);
   padding: 1rem 1.75rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
   transition: 0.3s;
+}
+
+.button__img {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
 }
 
 /*=============== CATEGORY ===============*/
