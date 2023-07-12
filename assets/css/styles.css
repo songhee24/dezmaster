@@ -202,13 +202,21 @@ button {
   position: relative;
 }
 
-.home__video_overlay {
+.home__video-overlay {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__header-title {
+  text-align: center;
+  font-size: var(--biggest-font-size);
 }
 
 /* Swiper Class */
