@@ -240,6 +240,23 @@ button {
   margin-left: 12px;
 }
 
+.button__whatsapp {
+  position: relative;
+  overflow: hidden;
+}
+
+.button__whatsapp::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 60px;
+  height: 100%;
+  top: 0;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+
 /*=============== CATEGORY ===============*/
 
 /*=============== ABOUT ===============*/
