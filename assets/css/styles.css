@@ -145,7 +145,34 @@ button {
 
 /*=============== HEADER ===============*/
 
+.header {
+  width: 100%;
+  background-color: var(--body-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: 1px solid;
+  z-index: var(--z-fixed);
+}
+
 /*=============== NAV ===============*/
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-weight: var(--font-medium);
+}
+
+.nav__logo-img {
+  width: 1.25rem;
+}
 
 /* Show menu */
 
