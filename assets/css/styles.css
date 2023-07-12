@@ -225,7 +225,7 @@ button {
 /*=============== BUTTONS ===============*/
 
 .button {
-  display: flex;
+  display: inline-block;
   background-color: var(--first-color);
   color: var(--title-color);
   padding: 1rem 1.75rem;
@@ -241,6 +241,7 @@ button {
 }
 
 .button__whatsapp {
+  display: flex;
   position: relative;
   overflow: hidden;
 }
@@ -258,7 +259,7 @@ button {
   );
   top: 0;
   left: -100px;
-  animation: shine 3s infinite linear; /* Animation */
+  animation: shine 3.5s infinite linear; /* Animation */
 }
 
 @keyframes shine {
