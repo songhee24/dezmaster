@@ -188,6 +188,7 @@ button {
 
 /* Change background header */
 .scroll-header {
+  z-index: 1000;
   background: var(--container-color);
 }
 
