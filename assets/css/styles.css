@@ -246,6 +246,7 @@ button {
   overflow: hidden;
 }
 
+/* Shine Button */
 .button__whatsapp::before {
   content: "";
   position: absolute;
@@ -274,7 +275,7 @@ button {
   }
 }
 
-/*=============== CATEGORY ===============*/
+/*=============== SERVICES ===============*/
 
 /*=============== ABOUT ===============*/
 
