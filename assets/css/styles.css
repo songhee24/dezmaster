@@ -286,9 +286,19 @@ button {
   position: relative;
   background: var(--container-color);
   border-radius: 1rem;
-  padding: 1.5rem 0 1rem 0;
+  padding: 1.5rem 0.5rem 1rem 0.5rem;
   text-align: center;
   overflow: hidden;
+}
+
+.service__img {
+  width: 130px;
+  transition: 0.3s;
+}
+
+.service__subtitle,
+.service__price {
+  display: block;
 }
 
 /*=============== ABOUT ===============*/
