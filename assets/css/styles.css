@@ -397,8 +397,20 @@ button {
   bottom: 0;
 }
 
-/*=============== ABOUT ===============*/
+/*=============== GUARANTEE ===============*/
 
+.guarantee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.guarantee__title {
+  text-align: center;
+  font-size: var(--biggest-font-size);
+  margin-bottom: var(--mb-1);
+}
 /*=============== TRICK OR TREAT ===============*/
 
 /*=============== DISCOUNT ===============*/
