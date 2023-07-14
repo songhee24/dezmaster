@@ -51,6 +51,7 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+  --z-absolute: 102;
 }
 
 /* Responsive typography */
@@ -198,7 +199,7 @@ button {
     left: 0;
     padding: 3.5rem 0;
     transition: 0.4s;
-    z-index: var(--z-fixed);
+    z-index: 1000;
     border-radius: 0 0 1.5rem 1.5rem;
   }
 }
@@ -242,7 +243,6 @@ button {
 
 /* Change background header */
 .scroll-header {
-  z-index: 1000;
   background: var(--container-color);
 }
 
@@ -269,7 +269,7 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: var(--z-fixed);
+  z-index: var(--z-tooltip);
 }
 
 .home__header-title {
