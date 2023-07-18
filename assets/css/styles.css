@@ -23,6 +23,11 @@
     hsla(102, 28%, 50%, 0.75) 0%,
     hsla(59, 28%, 35%, 0.76) 100%
   );
+  --header-menu-color: linear-gradient(
+    90deg,
+    hsl(144, 18%, 30%) 0%,
+    hsl(125, 34%, 47%) 100%
+  );
   --container-color: linear-gradient(
     136deg,
     hsl(146, 33%, 53%) 0%,
@@ -199,7 +204,7 @@ button {
   .nav__menu {
     position: fixed;
     width: 100%;
-    background: var(--container-color);
+    background: var(--header-menu-color);
     top: -150%;
     left: 0;
     padding: 3.5rem 0;
@@ -423,12 +428,14 @@ button {
   flex-wrap: wrap;
   align-items: center;
   border-radius: 1.5rem 1.5rem;
+  box-shadow: 4px 18px 21px -7px rgba(104, 236, 230, 0.25);
 }
 
 .statistics__footer {
   padding-top: 0.7rem;
   text-align: center;
   border-top: 1px solid gainsboro;
+  color: #dadada;
 }
 
 .count {
@@ -441,6 +448,7 @@ button {
 }
 
 .statistics__title {
+  color: white;
   font-size: 1.3rem;
 }
 
