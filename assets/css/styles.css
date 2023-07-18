@@ -569,7 +569,7 @@ button {
   }
 
   .section {
-    padding: 1.5rem 0 1.3rem;
+    padding: 2.5rem 0 1.3rem;
   }
 
   .nav__img {
@@ -577,7 +577,7 @@ button {
   }
 
   .home__header-title {
-    font-size: var(--normal-font-size);
+    font-size: 1rem;
   }
 
   .button__whatsapp {
@@ -598,6 +598,11 @@ button {
 
   .section__title {
     font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .service__img {
+    width: 80px;
   }
 }
 
