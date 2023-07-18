@@ -568,12 +568,16 @@ button {
     margin-right: var(--mb-1);
   }
 
+  .section {
+    padding: 1.5rem 0 1.3rem;
+  }
+
   .nav__img {
     width: 70px;
   }
 
   .home__header-title {
-    font-size: var(--smaller-font-size);
+    font-size: var(--normal-font-size);
   }
 
   .button__whatsapp {
@@ -590,6 +594,10 @@ button {
   .service__container {
     grid-template-columns: 1.5fr;
     justify-content: center;
+  }
+
+  .section__title {
+    font-size: 0.8rem;
   }
 }
 
