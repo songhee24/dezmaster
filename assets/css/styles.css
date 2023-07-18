@@ -490,13 +490,15 @@ button {
 .footer__img-one {
   width: 100px;
   top: 6rem;
-  right: -2rem;
+  right: 4rem;
+  transform: rotate(-50deg);
 }
 
 .footer__img-two {
   width: 150px;
-  bottom: 4rem;
-  right: 4rem;
+  bottom: 0;
+  right: -4rem;
+  transform: rotate(-70deg);
 }
 
 .footer__img-one:hover,
