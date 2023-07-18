@@ -19,6 +19,29 @@ if (navClose) {
   });
 }
 
+/*=============== COUNT UP ===============*/
+let count = document.querySelectorAll(".count");
+let arr = Array.from(count);
+console.log(count);
+console.log(arr);
+count.innerHTML = "";
+let zero = 0;
+
+arr.map((item) => {
+  let val = item.innerHTML;
+
+  function counter() {
+    item.innerHTML = zero++;
+    if (zero > val) {
+      clearInterval(fun);
+    }
+  }
+
+  let fun = setInterval(() => {
+    counter();
+  }, item.dataset.time / val);
+});
+
 /*=============== REMOVE MENU MOBILE ===============*/
 
 /*=============== HOME SWIPER ===============*/
