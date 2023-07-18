@@ -76,3 +76,5 @@ const sr = ScrollReveal({
 sr.reveal(".home");
 sr.reveal(".services", { interval: 200 });
 sr.reveal(".guarantee", { interval: 300 });
+sr.reveal(".statistics__box", { origin: "left" });
+sr.reveal(".statistics__footer", { origin: "right" });
