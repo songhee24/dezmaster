@@ -428,7 +428,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   border-radius: 1.5rem 1.5rem;
-  box-shadow: 4px 18px 21px -7px rgba(104, 236, 230, 0.25);
+  box-shadow: 4px 18px 21px -7px rgba(104, 236, 230, 0.1);
 }
 
 .statistics__footer {
