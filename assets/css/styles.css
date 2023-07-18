@@ -562,6 +562,36 @@ button {
 
 /*===============  BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .nav__img {
+    width: 70px;
+  }
+
+  .home__header-title {
+    font-size: var(--smaller-font-size);
+  }
+
+  .button__whatsapp {
+    font-size: var(--smaller-font-size);
+    padding: 0.5rem 1rem;
+    align-items: center;
+  }
+
+  .button__img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .service__container {
+    grid-template-columns: 1.5fr;
+    justify-content: center;
+  }
+}
 
 /* For medium devices */
 
