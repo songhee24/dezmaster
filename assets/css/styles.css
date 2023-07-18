@@ -420,11 +420,21 @@ button {
   padding: 0.7rem 1rem;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   border-radius: 1.5rem 1.5rem;
 }
 
-.statistic {
+.statistics__footer {
+  padding-top: 0.7rem;
+  border-top: 1px solid gainsboro;
+}
+
+.statistics__title {
+  font-size: 1.3rem;
+}
+
+.statistics {
   display: flex;
 }
 /*=============== DISCOUNT ===============*/
