@@ -683,6 +683,15 @@ button {
   .nav__toggle {
     display: none;
   }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+
+  .nav__link {
+    text-transform: initial;
+  }
 }
 
 /* For large devices */
