@@ -65,3 +65,17 @@ window.addEventListener("scroll", scrollHeader);
 /*=============== SHOW SCROLL UP ===============*/
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+  // reset: true
+});
+
+sr.reveal(`.home, .new-swiper, .newsletter__container`);
+sr.reveal(`.service__container, .services`, {
+  interval: 100,
+});
+sr.reveal(`.guarantee, .discount__img`, { origin: "left" });
+sr.reveal(`.section, .discount__data`, { origin: "right" });
