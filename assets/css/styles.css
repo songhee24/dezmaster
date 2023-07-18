@@ -562,6 +562,39 @@ button {
 
 /*===============  BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 520px) {
+  .section {
+    padding: 2.5rem 0 1.3rem;
+  }
+
+  .nav__img {
+    width: 70px;
+  }
+
+  .home__header-title {
+    font-size: 2rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    align-items: center;
+  }
+
+  .button__img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .guarantee__title {
+    font-size: 1.8rem;
+  }
+
+  .nav__img {
+    width: 100px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .container {
     margin-left: var(--mb-1);
@@ -631,5 +664,11 @@ button {
 }
 
 /* For medium devices */
+
+@media screen and (min-width: 576px) {
+  * {
+    background-color: red;
+  }
+}
 
 /* For large devices */
