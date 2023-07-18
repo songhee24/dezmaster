@@ -73,9 +73,4 @@ const sr = ScrollReveal({
   // reset: true
 });
 
-sr.reveal(`.home, .new-swiper, .newsletter__container`);
-sr.reveal(`.service__container, .services`, {
-  interval: 100,
-});
-sr.reveal(`.guarantee, .discount__img`, { origin: "left" });
-sr.reveal(`.section, .discount__data`, { origin: "right" });
+sr.reveal(".home");
