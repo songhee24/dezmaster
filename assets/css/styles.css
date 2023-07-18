@@ -580,7 +580,7 @@ button {
     font-size: 1rem;
   }
 
-  .button__whatsapp {
+  .button {
     font-size: var(--smaller-font-size);
     padding: 0.5rem 1rem;
     align-items: center;
@@ -603,6 +603,30 @@ button {
 
   .service__img {
     width: 80px;
+  }
+
+  .guarantee__title {
+    font-size: 1.3rem;
+  }
+
+  .statistics {
+    flex-direction: column;
+  }
+
+  .statistics__box {
+    text-align: center;
+    width: 100%;
+    margin-top: var(--mb-1);
+  }
+
+  .count {
+    width: initial;
+  }
+
+  .footer__img-one {
+    width: 80px;
+    right: 2rem;
+    top: 7.5rem;
   }
 }
 
