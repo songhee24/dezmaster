@@ -665,6 +665,18 @@ button {
 
 /* For medium devices */
 
+@media screen and (min-width: 380px) {
+  /*.statistics {*/
+  /*  flex-direction: column;*/
+  /*}*/
+
+  /*.statistics__box {*/
+  /*  text-align: center;*/
+  /*  width: 100%;*/
+  /*  margin-top: var(--mb-1);*/
+  /*}*/
+}
+
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
